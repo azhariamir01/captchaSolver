@@ -1,10 +1,5 @@
 import logging
 from abc import ABC, abstractmethod
-from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple, Union
-
-import numpy as np
-import pandas as pd
 
 logger = logging.getLogger(__name__)
 
@@ -14,7 +9,7 @@ class Dataset(ABC):
         self.name = name
 
     @abstractmethod
-    def read_train(self):
+    def read_train(self, augment):
         pass
 
     @abstractmethod

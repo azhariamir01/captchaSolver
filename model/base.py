@@ -1,5 +1,4 @@
 from abc import ABC, abstractmethod
-from typing import Optional
 
 
 class Model(ABC):
@@ -11,7 +10,7 @@ class Model(ABC):
         pass
 
     @abstractmethod
-    def test(self, net, data, device):
+    def test(self, net, data, plot, device):
         pass
 
     @abstractmethod
