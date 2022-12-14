@@ -50,8 +50,8 @@ python main.py
 
 In ```main.py``` there are some parameters that change the overall logic of the project:
 
-- ```load_saved_model``` ~ if ```True``` it will load existing model, and skip the training part, if ```False``` it will proceed normally
-- ```plotting``` ~ if ```True``` it will plot the training&validation loss and accuracy, and the test confusion matrix, if ```False``` it will not
-- ```augment_data``` ~ if ```True``` it will augment the training data when reading it, going from 80k to 560k (see augmentation methods in code)
-- ```batch_size``` ~ batch size used for the dataLoaders and for the model training.
+- ***load_saved_model*** ~ if ```True``` it will load existing model, and skip the training part, if ```False``` it will proceed normally
+- ***plotting*** ~ if ```True``` it will plot the training&validation loss and accuracy, and the test confusion matrix, if ```False``` it will not
+- ***augment_data*** ~ if ```True``` it will augment the training data when reading it, going from 80k to 560k (see augmentation methods in code)
+- ***batch_size*** ~ batch size used for the dataLoaders and for the model training.
       
