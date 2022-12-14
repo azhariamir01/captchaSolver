@@ -36,8 +36,10 @@ git@github.com:azhariamir01/captchaSolver.git
 
 # Run
 
+Install requirements:
 ```pip install -r requirements.txt```
 
+Run code:
 ```python main.py```
 
 ### To keep in mind:
