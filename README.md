@@ -12,29 +12,29 @@ Using SSH:
 git@github.com:azhariamir01/captchaSolver.git
 ```
 
-# Project structure
+## Project structure
 
-## Dataset
+### Dataset
 
 - ```base.py``` -  base class ***Dataset*** (abstract)
 - ```captcha.py``` - ***CaptchaDataset*** class with it's methods (```read_train```, ```read_test```, ```read_captcha```, ```augment_data```, ```create_dataLoader```)
 
-## Model
+### Model
 
 - ```base.py``` - base class ***Model*** (abstract)
 - ```cnn.py``` - ***CNN*** class with it's methods (```create_network```, ```train```, ```train_epoch```, ```evaluate_accuracy```, ```test```, ```predict```, ```load```, ```save```)
 
-## Artist
+### Artist
 
 - ```base.py``` - base class ***Artist*** (abstract)
 - ```plots.py``` - ***Plots*** class with it's methods (```plot_accuracy```, ```plot_loss```, ```plot_confusion_matrix```)
 
-## Other
+### Other
 
 - ```utils.py``` - some functions used throughout the project
 - ```main.py``` - main logic of the project and what to run
 
-# Run
+## Run
 
 Install requirements:
 ```
